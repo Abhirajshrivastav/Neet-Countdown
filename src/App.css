@@ -1,0 +1,108 @@
+/* Add your styles here */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: linear-gradient(to right, #2c3e50, #34495e);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #bdc3c7; /* Light gray text color */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  font-size: 3.5rem; /* Increased font size */
+  font-weight: 800;
+  margin: 0;
+  color: #ecf0f1; /* White text color */
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timer-container {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.timer {
+  background-color: #2c3e50; /* Darker background color */
+  padding: 20px;
+  margin: 0 10px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.timer:hover {
+  transform: scale(1.1);
+}
+
+.timer .time {
+  font-size: 3.5rem; /* Increased font size */
+  font-weight: 800;
+  color: #ecf0f1; /* White text color */
+}
+
+.timer .label {
+  font-size: 1.5rem; /* Increased font size */
+  font-weight: 500;
+  margin-top: 5px;
+  color: #bdc3c7; /* Light gray text color */
+}
+
+.counter-container {
+  text-align: center;
+}
+
+h2 {
+  font-size: 3.5rem; /* Increased font size */
+  font-weight: 800;
+  margin-bottom: 10px;
+  color: #ecf0f1; /* White text color */
+}
+
+.counter {
+  font-size: 5rem; /* Increased font size */
+  font-weight: 800;
+  margin-bottom: 24px;
+  padding: 15px;
+  border: 2px solid #ecf0f1;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: #2c3e50; /* Darker background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+button {
+  background-color: #e74c3c;
+  color: #ecf0f1;
+  font-size: 3rem; /* Decreased font size */
+  font-weight: 500;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #c0392b;
+}
