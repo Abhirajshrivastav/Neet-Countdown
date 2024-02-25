@@ -44,7 +44,7 @@ function App() {
   return (
     <div className="container">
       <div className="header">
-        <h1>Time Left</h1>
+        <h1>Neet 2024</h1>
       </div>
 
       <div className="main-content">
