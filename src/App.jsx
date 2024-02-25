@@ -13,7 +13,7 @@ function App() {
   });
 
   useEffect(() => {
-    const magicDate = new Date('5 Jun 2024').getTime();
+    const magicDate = new Date('5 May 2024').getTime();
 
     const updateTimer = () => {
       const currentTime = new Date().getTime();
@@ -67,7 +67,7 @@ function App() {
           </div>
         </div>
 
-        <div className="counter-container" >
+        {/* <div className="counter-container" >
           <h2>Total Left</h2>
           <div className="counter">{counter}</div>
           <button onClick={decreaseCounter} style={{
@@ -78,7 +78,7 @@ function App() {
             height: "120px",
             width: "180px"
           }}>Decrease Counter</button>
-        </div>
+        </div> */}
       </div>
     </div>
   );
